@@ -5,3 +5,7 @@ hebrew translation for miui ROM by MIUI IL (www.miil.co.il) strating 2016 by MIU
 MIUI China is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License
 
 HEBREW strings by mickeymarko are licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License.
+
+כל שימוש פרט לרום 
+xiaomi.eu
+בקשבצי התרגום מהווה הפרה חד משמעית של הקניין הרוחני של מתרגמי הממשק
