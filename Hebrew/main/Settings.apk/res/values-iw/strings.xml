@@ -52,40 +52,40 @@
 "&lt;li&gt;&lt;ul&gt;"ניווט: גרור עם שני אצבעות את המסך
 "&lt;li&gt;שינוי עוצמת הזום: צבוט או פסק שני אצבעות על המסך.&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;"
 
-יש באפשרותך גם להגדיל זמנית את החלק שנמצע תחת האצבע שלך על ידי נקישה משולשתוהחזקה. במצב הגדלה זה אתה יכול לגרור את האצבע על גבי המסך לצפייה באזורים אחרים You can also temporarily magnify what's under your finger by triple-tapping and holding. In this magnified state, you can drag your finger to explore different parts of the screen. Lift your finger to return to your previous state.
+יש באפשרותך גם להגדיל זמנית את החלק שנמצע תחת האצבע שלך על ידי נקישה משולשת והחזקה. במצב הגדלה זה אתה יכול לגרור את האצבע על גבי המסך לצפייה באזורים אחרים שחרור האצבע יחזיר למצב קודם
 
-Note: Triple-tap for magnification works everywhere except the keyboard and navigation bar."</string>
-  <string name="accessibility_screen_magnification_title">Magnification gestures</string>
-  <string name="accessibility_service_default_description">No description provided.</string>
-  <string name="accessibility_services_title">Services</string>
-  <string name="accessibility_settings">Accessibility</string>
-  <string name="accessibility_settings_title">Accessibility settings</string>
-  <string name="accessibility_sync_disabled">Sync disabled</string>
-  <string name="accessibility_sync_enabled">Sync enabled</string>
-  <string name="accessibility_sync_error">Sync error.</string>
-  <string name="accessibility_sync_in_progress">Syncing now</string>
-  <string name="accessibility_system_title">System</string>
-  <string name="accessibility_toggle_high_text_contrast_preference_title">High contrast text</string>
-  <string name="accessibility_toggle_large_text_preference_title">Large text</string>
-  <string name="accessibility_toggle_screen_magnification_auto_update_preference_summary">Update screen magnification on app transitions</string>
-  <string name="accessibility_toggle_screen_magnification_auto_update_preference_title">Auto update screen magnification</string>
-  <string name="accessibility_toggle_screen_magnification_preference_title">Screen magnification</string>
-  <string name="accessibility_toggle_speak_password_preference_title">Speak passwords</string>
-  <string name="account_add">Add</string>
-  <string name="account_autostar_label">Autostart</string>
-  <string name="account_list">Other accounts</string>
-  <string name="account_settings">Accounts</string>
-  <string name="account_settings_menu_auto_sync">Auto-sync data</string>
-  <string name="account_settings_menu_auto_sync_personal">Auto-sync personal data</string>
-  <string name="account_settings_menu_auto_sync_work">Auto-sync work data</string>
-  <string name="account_settings_title">Accounts</string>
-  <string name="account_sync_settings_title">Sync</string>
-  <string name="activating">Activating…</string>
-  <string name="active_device_admin_msg">Device administrator</string>
-  <string name="active_input_method_subtypes">Active input methods</string>
-  <string name="activity_not_found">Application is not installed on your phone.</string>
-  <string name="activity_picker_label">Choose activity</string>
-  <string name="adb_keys_warning_message">"Revoke access to USB debugging from all computers you've previously authorized?"</string>
+הערה: נקישה משולשת פעילה בכל מקום פרט למקלדת ושורת ההתראות."</string>
+  <string name="accessibility_screen_magnification_title">מחוות הגדלה</string>
+  <string name="accessibility_service_default_description">לא הוכנס כל תאור.</string>
+  <string name="accessibility_services_title">שירותים</string>
+  <string name="accessibility_settings">נגישות</string>
+  <string name="accessibility_settings_title">הגדרות נגישות</string>
+  <string name="accessibility_sync_disabled">סנכון כבוי</string>
+  <string name="accessibility_sync_enabled">סנכרון פעיל</string>
+  <string name="accessibility_sync_error">שגיאת סנכון.</string>
+  <string name="accessibility_sync_in_progress">מסכרן</string>
+  <string name="accessibility_system_title">מערכת</string>
+  <string name="accessibility_toggle_high_text_contrast_preference_title">טקסט בקונטרקסט גבוהה</string>
+  <string name="accessibility_toggle_large_text_preference_title">אותיות גדולות</string>
+  <string name="accessibility_toggle_screen_magnification_auto_update_preference_summary">עדכן הגדלת מסך במעבר בין אפליקציות</string>
+  <string name="accessibility_toggle_screen_magnification_auto_update_preference_title">עדכן באופן אוטומטי הגדלת מסך</string>
+  <string name="accessibility_toggle_screen_magnification_preference_title">הגדלת מסך</string>
+  <string name="accessibility_toggle_speak_password_preference_title">סיסמא מדוברת</string>
+  <string name="account_add">הוסף</string>
+  <string name="account_autostar_label">התחלה אוטומטית</string>
+  <string name="account_list">חשבון נוסף</string>
+  <string name="account_settings">חשבונות</string>
+  <string name="account_settings_menu_auto_sync">סנכרון מידע אוטומטי</string>
+  <string name="account_settings_menu_auto_sync_personal">סנכון מידע אישי אוטומטי</string>
+  <string name="account_settings_menu_auto_sync_work">שנכון מידע ארגונ אוטומטי</string>
+  <string name="account_settings_title">חשבונות</string>
+  <string name="account_sync_settings_title">סנכרון</string>
+  <string name="activating">מאקטב...</string>
+  <string name="active_device_admin_msg">מנהל מכשיר</string>
+  <string name="active_input_method_subtypes">שיטת קלט פעילה</string>
+  <string name="activity_not_found">האפליקציה לא מותקנת על המכשיר</string>
+  <string name="activity_picker_label">בחר פעולה</string>
+  <string name="adb_keys_warning_message">"האם לחסום גישת מפתחים לכל המחשבים אותם אישרת בעבר?"</string>
   <string name="adb_warning_message">USB debugging is intended for development purposes only. Use it to copy data between your computer and your device, install apps on your device without notification, and read log data.</string>
   <string name="adb_warning_title">Allow USB debugging?</string>
   <string name="add_account_label">Add account</string>
