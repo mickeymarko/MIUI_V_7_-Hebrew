@@ -10,19 +10,19 @@
   <string name="ac_set_apps_title">בחר אפליקציות לנעילה</string>
   <string name="accelerometer_summary_off">שנה תצוגת מסך באופן אוטומטי כאשר הטלפון מסתובב</string>
   <string name="accelerometer_summary_on">שנה תצוגת מסך באופן אוטומטי כאשר הטלפון מסתובב</</string>
-  <string name="accelerometer_title">סיבוב מסף אוטומטי</string>
+  <string name="accelerometer_title">סיבוב מסך אוטומטי</string>
   <string name="access_control_app_entry_multiple">פתח %s</string>
   <string name="access_control_app_entry_single">פתח אפליקציה</string>
   <string name="access_control_need_password">"%s מוגן
 "</string>
   <string name="access_control_need_to_unlock">סיסמא נדרשת:</string>
-  <string name="access_control_no_back_footer">גא [icon] ליציאה</string>
-  <string name="access_control_password_title">סיסמר</string>
+  <string name="access_control_no_back_footer">גע [icon] ליציאה</string>
+  <string name="access_control_password_title">סיסמא</string>
   <string name="access_control_recording_intro_header">צייר תבנית נעילה:</string>
   <string name="access_control_reset_by_account">הירשם לחשבון שיאומי שלך לשחרור נעילה/string>
   <string name="access_point_names">שם נקודת גישה</string>
   <string name="accessibility_captioning_title">Captions</string>
-  <string name="accessibility_display_daltonizer_preference_subtitle">זהומודול נסיוני העלול להשפיע על ביצועי הטלפון.</string>
+  <string name="accessibility_display_daltonizer_preference_subtitle">זוהי אפשרות מנסיונית הילולה להשפיע על ביצועי הטלפון.</string>
   <string name="accessibility_display_daltonizer_preference_title">תיקון צבעין</string>
   <string name="accessibility_display_inversion_preference_subtitle">(נסיוני) עלולו להשפיע על ביצועי הטלפון</string>
   <string name="accessibility_display_inversion_preference_title">היפוך צבעים</string>
@@ -31,7 +31,7 @@
   <string name="accessibility_feature_or_input_method_not_allowed">לא מורשה על ידי הארגון אליו אתה משתייך</string>
   <string name="accessibility_feature_state_off">כבוי</string>
   <string name="accessibility_feature_state_on">פעיל</string>
-  <string name="accessibility_global_gesture_preference_description">"כאשר המודול מאופשר, יש באפשרותך לאפשר נגישות בשני צעדים:
+  <string name="accessibility_global_gesture_preference_description">"כאשר אפשרות זאת פעילה באפשרותך להפעילה בשני צעדים:
 
 צעד ראשון: לחץ והחזק את מקש הכיבוי עד לשמע של צליל או הרגשת רטט
 
@@ -62,7 +62,7 @@
   <string name="accessibility_settings_title">הגדרות נגישות</string>
   <string name="accessibility_sync_disabled">סנכון כבוי</string>
   <string name="accessibility_sync_enabled">סנכרון פעיל</string>
-  <string name="accessibility_sync_error">שגיאת סנכון.</string>
+  <string name="accessibility_sync_error">ששגיאת סנכרון.</string>
   <string name="accessibility_sync_in_progress">מסכרן</string>
   <string name="accessibility_system_title">מערכת</string>
   <string name="accessibility_toggle_high_text_contrast_preference_title">טקסט בקונטרקסט גבוהה</string>
@@ -86,51 +86,51 @@
   <string name="activity_not_found">האפליקציה לא מותקנת על המכשיר</string>
   <string name="activity_picker_label">בחר פעולה</string>
   <string name="adb_keys_warning_message">"האם לחסום גישת מפתחים לכל המחשבים אותם אישרת בעבר?"</string>
-  <string name="adb_warning_message">USB debugging is intended for development purposes only. Use it to copy data between your computer and your device, install apps on your device without notification, and read log data.</string>
-  <string name="adb_warning_title">Allow USB debugging?</string>
-  <string name="add_account_label">Add account</string>
-  <string name="add_auto_startup_application">Add autostart apps</string>
-  <string name="add_device_admin">Activate</string>
-  <string name="add_device_admin_msg">Activate device administrator?</string>
-  <string name="add_fingerprint_done_msg">Now you can unlock this device with your fingerprint.</string>
-  <string name="add_fingerprint_done_title">"You're ready to rock!"</string>
-  <string name="add_fingerprint_failed_retry_text">"Couldn't add fingerprint, try again"</string>
-  <string name="add_fingerprint_finished_button_text">OK</string>
-  <string name="add_fingerprint_instruction_dialog_msg">"To add your fingerprint info, place your finger on the fingerprint reader.
-Make sure your finger covers the inner edge of the sensor"</string>
-  <string name="add_fingerprint_instruction_msg">Unlock your device or verify payment with your fingerprint</string>
-  <string name="add_fingerprint_instruction_title">Place your finger on the fingerprint reader</string>
-  <string name="add_fingerprint_put_finger_edge_msg">Place and remove your finger repeatedly until your fingerprint is fully recorded.</string>
-  <string name="add_fingerprint_put_finger_msg">Place and remove your finger repeatedly until your fingerprint is fully recorded.</string>
-  <string name="add_fingerprint_put_finger_title">Place and remove finger</string>
-  <string name="add_fingerprint_similar_fingerprint_input_error_msg">Change your finger position</string>
-  <string name="add_fingerprint_text">Add fingerprint</string>
-  <string name="add_fingerprint_toast_text">Place your finger on the scanner now</string>
-  <string name="adding_profile_owner_warning">"By proceeding, your User will be managed by your Administrator which may also be able to store associated data, in addition to your personal data.
+  <string name="adb_warning_message">מצב מפתח נועד למפתחים בלבד השתמש בו להעתקת קבצים, התקנת אפליקציות ממחשבך או לשמירת לוגים של המערכת</string>
+  <string name="adb_warning_title">האם לאפשר מצב מפתח</string>
+  <string name="add_account_label">הוסף חשבון</string>
+  <string name="add_auto_startup_application">הוסף אפליקציות להתחלה אוטומטית</string>
+  <string name="add_device_admin">הפעל</string>
+  <string name="add_device_admin_msg">האם להפעיל את מנהל ההתקן</string>
+  <string name="add_fingerprint_done_msg">עכשיו באפשרותך לשחרר את נעילת המכשיר עם טביעת האצבע שלך.</string>
+  <string name="add_fingerprint_done_title">"הכל מוכן לעבודה!"</string>
+  <string name="add_fingerprint_failed_retry_text">"לא ניתן להוסיף את טביעת האצבע, אנא נסה שנית"</string>
+  <string name="add_fingerprint_finished_button_text">אישור</string>
+  <string name="add_fingerprint_instruction_dialog_msg">"על מנת להוסיף טביעת אצבע הנח את האצבע על חיישן טביעת האצבע.
+וודא כי האצבע מונחת בתוך הגבולות הפנימיים של החיישן"</string>
+  <string name="add_fingerprint_instruction_msg">שחרר את נעילת המכשיר או וודא תשלום באמצעות טביעת אצבע</string>
+  <string name="add_fingerprint_instruction_title">הנח את אצבעתך על קורא טביעת האצבע</string>
+  <string name="add_fingerprint_put_finger_edge_msg">הנח והסר את אצבעתך מקורה טביעת האצבע עד לקליטה מלאה של האצבע.</string>
+  <string name="add_fingerprint_put_finger_msg">הנח והסר את אצבעתך מקורה טביעת האצבע עד לקליטה מלאה של האצבע.</string>
+  <string name="add_fingerprint_put_finger_title">הנח והסר את אצבעתך</string>
+  <string name="add_fingerprint_similar_fingerprint_input_error_msg">אנא שנה את מיקום טביעת האצבע</string>
+  <string name="add_fingerprint_text">הוסף טביעת אצבע</string>
+  <string name="add_fingerprint_toast_text">הנח את אצבעתך על קורא טביעת האצבע כעת</string>
+  <string name="adding_profile_owner_warning">"באם תמשיך, המשתמש ינועל על מנהל המערכת אשר יוכל לשייר מידע ארגוני בנוסף למידע האישי שלך.
 
-Your Administrator has the ability to monitor and manage settings, access, apps, and data associated with this User, including network activity and your device's location information."</string>
+למנהל המערכת קיימת יכולה מלאה לשלוט בהגדרות המכשיר, גישה , אפליקציות ומידע אישי שלך כולל גישה לרשתות ולמיקום המכשיר."</string>
   <string name="additional_system_update"/>
   <string name="additional_system_update_menu"/>
-  <string name="additional_system_update_settings_list_item_title">Additional system updates</string>
+  <string name="additional_system_update_settings_list_item_title">עדכוני מערכת נוספים</string>
   <string name="adjust_3d_depth_title">"Adjust games' 3D depth"</string>
-  <string name="advanced_security_title">Advanced</string>
-  <string name="advanced_settings">Advanced settings</string>
-  <string name="advanced_settings_summary">Enable more settings options</string>
-  <string name="agps_roaming">A-GPS when roaming</string>
-  <string name="agps_roaming_dia">"Using A-GPS while roaming may increase your mobile data usage. If you go over your plan's data limit, your carrier could charge you additional fees."</string>
-  <string name="agps_roaming_dia_title">Use A-GPS when roaming</string>
-  <string name="agps_roaming_summary">Use mobile data to assist GPS while roaming</string>
-  <string name="airplane_mode">Airplane mode</string>
-  <string name="alarm_volume_option_title">Alarm volume</string>
-  <string name="alarm_volume_title">Alarm</string>
-  <string name="all_volume_title">Volumes</string>
-  <string name="allow">Allow</string>
-  <string name="allow_bind_app_widget_activity_allow_bind">After you create the widget, %1$s can access all data it displays.</string>
-  <string name="allow_bind_app_widget_activity_allow_bind_title">Create widget and allow access?</string>
-  <string name="allow_bind_app_widget_activity_always_allow_bind">Always allow %1$s to create widgets and access their data</string>
-  <string name="allow_data_usage_title">Allow data usage when roaming</string>
-  <string name="allow_mock_location">Allow mock locations</string>
-  <string name="allow_mock_location_summary">Allow mock locations</string>
+  <string name="advanced_security_title">מתקדם</string>
+  <string name="advanced_settings">הקדרות מתקדמות</string>
+  <string name="advanced_settings_summary">אפשר הגדרות נוספות</string>
+  <string name="agps_roaming">A-GPS בנדידה</string>
+  <string name="agps_roaming_dia">"שימוש בנדידה עלול לגרור עלויות נוספות מצד ספק השירות"</string>
+  <string name="agps_roaming_dia_title">השתמש ב AGPS בנדידה</string>
+  <string name="agps_roaming_summary">שימוש בתקשורת נתונית על מנת לסייע באיתור מיקום לוויני בנדידה</string>
+  <string name="airplane_mode">מצב טיסה</string>
+  <string name="alarm_volume_option_title">עוצמת התראה</string>
+  <string name="alarm_volume_title">התראה</string>
+  <string name="all_volume_title">עוצמות קול</string>
+  <string name="allow">אפשר</string>
+  <string name="allow_bind_app_widget_activity_allow_bind">לאחר הוספת הוויג'ט, %1$s תאופשר גישה לכל המידע אותו הוא מציג.</string>
+  <string name="allow_bind_app_widget_activity_allow_bind_title">הוספת וויג'ט והרשאת גישה??</string>
+  <string name="allow_bind_app_widget_activity_always_allow_bind">אפשר תמיד %1$s הוספת וויג'טים והרשאת גישה</string>
+  <string name="allow_data_usage_title">אפשר תקשורת נתונים בנדידה</string>
+  <string name="allow_mock_location">אפשר זיוף מיקום</string>
+  <string name="allow_mock_location_summary">אפשר זיוף מיקום</string>
   <string name="allow_usage_access_message">If you allow access, this app can view general information about the apps on your device, such as how often you use them.</string>
   <string name="allow_usage_access_title">Allow access?</string>
   <string name="alpha_build">" | Alpha"</string>
