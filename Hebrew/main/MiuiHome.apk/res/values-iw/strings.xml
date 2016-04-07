@@ -1,10 +1,10 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <resources>
-  <string name="activity_not_found">"האפליקציה אינה מותקנת"</string>
+  <string name="activity_not_found">"היישום אינו מותקן"</string>
   <string name="add_screen">הוסף מסך</string>
-  <string name="app_already_exist">האפליקציה כבר מותקנת</string>
-  <string name="app_being_backup_message">האפליקציה בתהליך גיבוי</string>
-  <string name="app_being_restored_message">האפליקציה בתהליך שחזור</string>
+  <string name="app_already_exist">היישום כבר קיים</string>
+  <string name="app_being_backup_message">היישום בתהליך גיבוי</string>
+  <string name="app_being_restored_message">היישום בתהליך שיחזור</string>
   <string name="app_category_books">ספרים</string>
   <string name="app_category_education">חינוך</string>
   <string name="app_category_entertainment">בידור</string>
@@ -42,8 +42,8 @@
   <string name="cancel_btn_label">בטל</string>
   <string name="cant_edit_lock_screen">"לא ניתן לערוך את סגנון מסך הנעילה"</string>
   <string name="cant_remove_folder">"לא ניתן להסיר תיקייה"</string>
-  <string name="cant_remove_retained_app">"לא ניתן להסיר אפליקצייה"</string>
-  <string name="cant_remove_system_app">"לא ניתן להסיר אפליקציית מערכת"</string>
+  <string name="cant_remove_retained_app">"לא ניתן להסיר יישום"</string>
+  <string name="cant_remove_system_app">"לא ניתן להסיר יישום מערכת"</string>
   <string name="children_folder_title">ילדים</string>
   <string name="children_mode_exit">יציאה</string>
   <string name="children_mode_tips">חזור להגדרות לניהול גישה לאפליקציות.</string>
@@ -56,11 +56,11 @@
   <string name="current_wallpaper">נוכחי</string>
   <string name="custom_wallpaper_picker">חיפוש</string>
   <string name="default_folder_title_claro">Claro</string>
-  <string name="default_folder_title_game">Games</string>
-  <string name="default_folder_title_recommend">More Apps</string>
-  <string name="default_folder_title_security">System</string>
+  <string name="default_folder_title_game">משחקים</string>
+  <string name="default_folder_title_recommend">יישומים נוספים</string>
+  <string name="default_folder_title_security">מערכת</string>
   <string name="default_folder_title_telcel">Telcel</string>
-  <string name="default_folder_title_tools">Tools</string>
+  <string name="default_folder_title_tools">כלים</string>
   <string name="default_shortcut_title_10086">10086.cn</string>
   <string name="delete">מחיקה</string>
   <string name="delete_screen">למחוק מסך</string>
@@ -90,11 +90,11 @@
   <string name="failed_to_load_image">"לא ניתן לטעון תמונה"</string>
   <string name="folder_name">תיקייה</string>
   <string name="frame_load_failed">"לא ניתן לטעון"</string>
-  <string name="free_style_apps_title">בחר אפליקציה</string>
-  <string name="free_style_drawer_title">כל האפליקציות</string>
-  <string name="free_style_edit_app">אפליקציה</string>
+  <string name="free_style_apps_title">בחר יישום</string>
+  <string name="free_style_drawer_title">כל היישומים</string>
+  <string name="free_style_edit_app">יישום</string>
   <string name="free_style_edit_bar_empty">ריק</string>
-  <string name="free_style_edit_bar_select_app">בחר אפליקציה</string>
+  <string name="free_style_edit_bar_select_app">בחר יישום</string>
   <string name="free_style_edit_bottom_empty_tip">בחר במלבן לעריכה</string>
   <string name="free_style_edit_drawer">מגירה</string>
   <string name="free_style_edit_move_tip">Touch &amp; hold to move an item</string>
