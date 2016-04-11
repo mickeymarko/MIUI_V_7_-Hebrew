@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="timezone_filters">
-        <item>America</item>
-        <item>Europe</item>
-        <item>Africa</item>
-        <item>Asia</item>
-        <item>Australia</item>
-        <item>Pacific</item>
-        <item>All</item>
+        <item>אמריקה</item>
+        <item>אירופה</item>
+        <item>אפריקה</item>
+        <item>אסיה</item>
+        <item>אוסטרליה</item>
+        <item>פסיפיק</item>
+        <item>הכל</item>
     </string-array>
     <string-array name="date_format_values">
         <item></item>
@@ -16,13 +16,13 @@
         <item>yyyy-MM-dd</item>
     </string-array>
     <string-array name="screen_timeout_entries">
-        <item>15 seconds</item>
-        <item>30 seconds</item>
-        <item>1 minute</item>
-        <item>2 minutes</item>
-        <item>5 minutes</item>
-        <item>10 minutes</item>
-        <item>Never</item>
+        <item>15 שניות</item>
+        <item>30 שניות</item>
+        <item>דקה</item>
+        <item>שתי דקות</item>
+        <item>חמש דקות</item>
+        <item>עשר דקות</item>
+        <item>לעולם לא</item>
     </string-array>
     <string-array name="screen_timeout_values">
         <item>15000</item>
@@ -34,14 +34,14 @@
         <item>2147483647</item>
     </string-array>
     <string-array name="dream_timeout_entries">
-        <item>Never</item>
-        <item>15 seconds</item>
-        <item>30 seconds</item>
-        <item>1 minute</item>
-        <item>2 minutes</item>
-        <item>5 minutes</item>
-        <item>10 minutes</item>
-        <item>30 minutes</item>
+        <item>לעולם לא</item>
+        <item>15 שניות</item>
+        <item>30 שניות</item>
+        <item>דקה</item>
+        <item>2 דקות</item>
+        <item>5 דקות</item>
+        <item>10 דקות</item>
+        <item>30 דקות</item>
     </string-array>
     <string-array name="dream_timeout_values">
         <item>0</item>
@@ -54,15 +54,15 @@
         <item>1800000</item>
     </string-array>
     <string-array name="lock_after_timeout_entries">
-        <item>Immediately</item>
-        <item>5 seconds</item>
-        <item>15 seconds</item>
-        <item>30 seconds</item>
-        <item>1 minute</item>
-        <item>2 minutes</item>
-        <item>5 minutes</item>
-        <item>10 minutes</item>
-        <item>30 minutes</item>
+        <item>מיידי</item>
+        <item>5 שניות</item>
+        <item>15 שניות</item>
+        <item>30 שניות</item>
+        <item>דקה</item>
+        <item>2 דקות</item>
+        <item>5 דקות</item>
+        <item>10 דקות</item>
+        <item>30 דקות</item>
     </string-array>
     <string-array name="lock_after_timeout_values">
         <item>0</item>
@@ -76,30 +76,30 @@
         <item>1800000</item>
     </string-array>
     <string-array name="entries_font_size">
-        <item>Normal</item>
-        <item>medium</item>
-        <item>large</item>
-        <item>Huge</item>
-        <item>godzilla</item>
+        <item>רגיל</item>
+        <item>בינוני</item>
+        <item>גדול</item>
+        <item>ענק</item>
+        <item>מטורף</item>
     </string-array>
     <string-array name="entryvalues_font_size">
-        <item>small</item>
-        <item>normal</item>
-        <item>medium</item>
-        <item>large</item>
-        <item>huge</item>
-        <item>godzilla</item>
+        <item>קטן</item>
+        <item>רגיל</item>
+        <item>בינוני</item>
+        <item>גדול</item>
+        <item>ענק</item>
+        <item>מטורף</item>
     </string-array>
     <string-array name="tts_rate_entries">
-        <item>Very slow</item>
-        <item>Slow</item>
-        <item>Normal</item>
-        <item>Fast</item>
-        <item>Faster</item>
-        <item>Very fast</item>
-        <item>Rapid</item>
-        <item>Very rapid</item>
-        <item>Fastest</item>
+        <item>איטי מאד</item>
+        <item>איטי</item>
+        <item>רגיל</item>
+        <item>מהיר</item>
+        <item>מהיר יותר</item>
+        <item>מהיר מאד</item>
+        <item>מהיר יותר</item>
+        <item>יותר מהיר</item>
+        <item>הכי מהיר</item>
     </string-array>
     <string-array name="tts_rate_values">
         <item>60</item>
@@ -113,11 +113,11 @@
         <item>400</item>
     </string-array>
     <string-array name="tts_pitch_entries">
-        <item>Very low</item>
-        <item>Low</item>
-        <item>Normal</item>
-        <item>High</item>
-        <item>Very high</item>
+        <item>נמוך מאד</item>
+        <item>נמוך</item>
+        <item>רגיל</item>
+        <item>גבוה</item>
+        <item>מאד גבוה</item>
     </string-array>
     <string-array name="tts_pitch_values">
         <item>50</item>
@@ -144,31 +144,32 @@
     </string-array>
     <string-array name="wifi_status">
         <item></item>
-        <item>Scanning…</item>
-        <item>Connecting…</item>
-        <item>Authenticating…</item>
-        <item>Obtaining IP address…</item>
-        <item>Connected</item>
-        <item>Suspended</item>
-        <item>Disconnecting…</item>
-        <item>Disconnected</item>
-        <item>Unsuccessful</item>
-        <item>Blocked</item>
-        <item>Temporarily avoiding poor connection</item>
+        <item>מחפש</item>
+        <item>מתחבר</item>
+        <item>מאמת</item>
+        <item>מקבל כתובת IP</item>
+        <item>מחובר</item>
+        <item>מושהה</item>
+        <item>מתנתק</item>
+        <item>מנותק</item>
+        <item>נכשל</item>
+        <item>חסום</item>
+        <item>נמנע מחיבור לרשת באיכות נמוכה </item>
     </string-array>
     <string-array name="wifi_status_with_ssid">
         <item></item>
-        <item>Scanning…</item>
-        <item>Connecting to %1$s…</item>
-        <item>Authenticating with %1$s…</item>
-        <item>Obtaining IP address from %1$s…</item>
-        <item>Connected to %1$s</item>
-        <item>Suspended</item>
-        <item>Disconnecting from %1$s…</item>
-        <item>Disconnected</item>
-        <item>Unsuccessful</item>
-        <item>Blocked</item>
-        <item>Temporarily avoiding poor connection</item>
+		<item></item>
+        <item>מחפש</item>
+        <item>מתחבר ל %1$s</item>
+        <item>מאמת את %1$s</item>
+        <item>מקבל כתובת IP מ %1$s</item>
+        <item>מחובר אל %1$s</item>
+        <item>מושהה</item>
+        <item>מתנתק מ %1$s</item>
+        <item>מנותק</item>
+        <item>נכשל</item>
+        <item>חסום</item>
+        <item>נמנע מחיבור לרשת באיכות נמוכה </item>
     </string-array>
     <string-array name="wifi_security">
         <item>@string/wifi_security_none</item>
@@ -194,38 +195,38 @@
         <item>PWD</item>
     </string-array>
     <string-array name="wifi_p2p_wps_setup">
-        <item>Push button</item>
-        <item>PIN from peer device</item>
-        <item>PIN from this device</item>
+        <item>לחץ על כפתור</item>
+        <item>קוד מראוטר</item>
+        <item>קוד מהמכשיר</item>
     </string-array>
     <string-array name="wifi_p2p_status">
-        <item>Connected</item>
-        <item>Invited</item>
-        <item>Unsuccessful</item>
-        <item>Available</item>
-        <item>Out-of-range</item>
+        <item>מחובר</item>
+        <item>הוזמן</item>
+        <item>נכשל</item>
+        <item>זמין</item>
+        <item>לא בטווח</item>
     </string-array>
     <string-array name="bluetooth_visibility_timeout_entries">
-        <item>2 minutes</item>
-        <item>5 minutes</item>
-        <item>1 hour</item>
-        <item>Never time out</item>
+        <item>2 דקות</item>
+        <item>5 דקות</item>
+        <item>שעה</item>
+        <item>לתמיד</item>
     </string-array>
     <string-array name="wifi_signal">
-        <item>Poor</item>
-        <item>Fair</item>
-        <item>Good</item>
-        <item>Excellent</item>
+        <item>חלש</item>
+        <item>סביר</item>
+        <item>טוב</item>
+        <item>מצוין</item>
     </string-array>
     <string-array name="wifi_sleep_policy_entries">
-        <item>Always</item>
-        <item>Only when plugged in</item>
-        <item>Never</item>
+        <item>תמיד</item>
+        <item>רק כאשר המכשיר בטעינה</item>
+        <item>לעלם לא</item>
     </string-array>
     <string-array name="wifi_sleep_policy_entries_wifi_only">
-        <item>Always</item>
-        <item>Only when plugged in</item>
-        <item>Never</item>
+        <item>תמיד</item>
+        <item>רק כאשר המכשיר בטעינה</item>
+        <item>לעלם לא</item>
     </string-array>
     <string-array name="wifi_sleep_policy_values">
         <item>2</item>
@@ -233,17 +234,17 @@
         <item>0</item>
     </string-array>
     <string-array name="data_usage_data_range">
-        <item>Last 30 days</item>
-        <item>Set usage cycle...</item>
+        <item>30 יוום האחרונים</item>
+        <item>הגדר מחזור חיוב...</item>
     </string-array>
     <string-array name="sim_card_data_range">
-        <item>Last 4 digits</item>
-        <item>First 4 digits</item>
+        <item>4 ספרות אחרונות</item>
+        <item>4 ספרות ראשונות</item>
     </string-array>
     <string-array name="wifi_frequency_band_entries">
-        <item>Automatic</item>
-        <item>5 GHz only</item>
-        <item>2.4 GHz only</item>
+        <item>אוטומטי</item>
+        <item>5 GHz רק</item>
+        <item>2.4 GHz רק</item>
     </string-array>
     <string-array name="wifi_frequency_band_values">
         <item>0</item>
@@ -251,9 +252,9 @@
         <item>2</item>
     </string-array>
     <string-array name="usage_stats_display_order_types">
-        <item>Usage time</item>
-        <item>Last time used</item>
-        <item>App name</item>
+        <item>זמן שימוש</item>
+        <item>שומש פעם אחרונה</item>
+        <item>שם יישום</item>
     </string-array>
     <string-array name="wifi_eap_entries">
         <item>PEAP</item>
@@ -262,12 +263,12 @@
         <item>PWD</item>
     </string-array>
     <string-array name="wifi_peap_phase2_entries">
-        <item>None</item>
+        <item>ללא</item>
         <item>MSCHAPV2</item>
         <item>GTC</item>
     </string-array>
     <string-array name="wifi_phase2_entries">
-        <item>None</item>
+        <item>ללא</item>
         <item>PAP</item>
         <item>MSCHAP</item>
         <item>MSCHAPV2</item>
@@ -278,12 +279,12 @@
         <item>Static</item>
     </string-array>
     <string-array name="wifi_proxy_settings">
-        <item>None</item>
-        <item>Manual</item>
+        <item>ללא</item>
+        <item>נורמלי</item>
         <item>Proxy Auto-Config</item>
     </string-array>
     <string-array name="apn_auth_entries">
-        <item>None</item>
+        <item>ללא</item>
         <item>PAP</item>
         <item>CHAP</item>
         <item>PAP or CHAP</item>
@@ -315,7 +316,7 @@
         <item>0</item>
     </string-array>
     <string-array name="mvno_type_entries">
-        <item>None</item>
+        <item>ללא</item>
         <item>SPN</item>
         <item>IMSI</item>
         <item>GID</item>
@@ -327,27 +328,27 @@
         <item>gid</item>
     </string-array>
     <string-array name="app_install_location_entries">
-        <item>Internal device storage</item>
-        <item>Removable SD card</item>
-        <item>Let the system decide</item>
+        <item>אחסון פנימי</item>
+        <item>כרטיס זכרון</item>
+        <item>תן למערכת לנהל</item>
     </string-array>
     <string-array name="app_install_location_values">
-        <item>device</item>
-        <item>sdcard</item>
-        <item>auto</item>
+        <item>מכשיר</item>
+        <item>כ. זכרון</item>
+        <item>אוטו'</item>
     </string-array>
     <string-array name="app_ops_permissions">
-        <item>Allowed</item>
-        <item>Ignored</item>
-        <item>Always ask</item>
+        <item>מורשה</item>
+        <item>התעלם</item>
+        <item>שאל תמיד</item>
     </string-array>
     <string-array name="app_ops_categories">
-        <item>Location</item>
-        <item>Personal</item>
-        <item>Messaging</item>
-        <item>Media</item>
-        <item>Device</item>
-        <item>Bootup</item>
+        <item>מיקום</item>
+        <item>פרטי</item>
+        <item>הודעות</item>
+        <item>מדיה</item>
+        <item>מכשיר</item>
+        <item>בהעלאה</item>
     </string-array>
     <string-array name="app_ops_summaries">
         <item>coarse location</item>
@@ -474,9 +475,9 @@
         <item>Data change</item>
     </string-array>
     <string-array name="long_press_timeout_selector_titles">
-        <item>Short</item>
-        <item>Medium</item>
-        <item>Long</item>
+        <item>קצר</item>
+        <item>בינוני</item>
+        <item>ארוך</item>
     </string-array>
     <string-array name="long_press_timeout_selector_values">
         <item>500</item>
@@ -506,11 +507,11 @@
         <item>sans-serif-smallcaps</item>
     </string-array>
     <string-array name="captioning_font_size_selector_titles">
-        <item>Very small</item>
-        <item>Small</item>
-        <item>Normal</item>
-        <item>Large</item>
-        <item>Very large</item>
+        <item>קטן מאוד</item>
+        <item>קטן</item>
+        <item>רגיל</item>
+        <item>גדול</item>
+        <item>גדול מאוד</item>
     </string-array>
     <string-array name="captioning_font_size_selector_values">
         <item>0.25</item>
@@ -520,12 +521,12 @@
         <item>2.0</item>
     </string-array>
     <string-array name="captioning_edge_type_selector_titles">
-        <item>Default</item>
-        <item>None</item>
-        <item>Outline</item>
-        <item>Drop shadow</item>
-        <item>Raised</item>
-        <item>Depressed</item>
+        <item>ברירת מחדל</item>
+        <item>ללא</item>
+        <item>חיצוני</item>
+        <item>צל</item>
+        <item>עולה</item>
+        <item>יורד</item>
     </string-array>
     <integer-array name="captioning_edge_type_selector_values">
         <item>-1</item>
@@ -536,15 +537,15 @@
         <item>4</item>
     </integer-array>
     <string-array name="captioning_color_selector_titles">
-        <item>@string/color_unspecified</item>
-        <item>@string/color_white</item>
-        <item>@string/color_black</item>
-        <item>@string/color_red</item>
-        <item>@string/color_yellow</item>
-        <item>@string/color_green</item>
-        <item>@string/color_cyan</item>
-        <item>@string/color_blue</item>
-        <item>@string/color_magenta</item>
+        <item>@string/לא נקבע צבע</item>
+        <item>@string/לבן</item>
+        <item>@string/שחור</item>
+        <item>@string/אדום</item>
+        <item>@string/צהוב</item>
+        <item>@string/ירוק</item>
+        <item>@string/טורקיז</item>
+        <item>@string/כחול</item>
+        <item>@string/בורדו</item>
     </string-array>
     <integer-array name="captioning_color_selector_values">
         <item>0x100</item>
@@ -626,12 +627,12 @@
         <item>0xffffffff</item>
     </integer-array>
     <string-array name="captioning_preset_selector_titles">
-        <item>Use app defaults</item>
-        <item>White on black</item>
-        <item>Black on white</item>
-        <item>Yellow on black</item>
-        <item>Yellow on blue</item>
-        <item>Custom</item>
+        <item>יישום ברירת מחדל</item>
+        <item>לבן על שחור</item>
+        <item>שחור על לבן</item>
+        <item>צהוב על שחור</item>
+        <item>צהוב על כחול</item>
+        <item>מותאם אישית</item>
     </string-array>
     <integer-array name="captioning_preset_selector_values">
         <item>4</item>
@@ -668,28 +669,28 @@
         <item>16M per log buffer</item>
     </string-array>
     <string-array name="hdcp_checking_titles">
-        <item>Never check</item>
-        <item>Check for DRM content only</item>
-        <item>Always check</item>
+        <item>לעולם לא</item>
+        <item>בדור עבור תוכן DRM בלבד</item>
+        <item>בדוק תמיד</item>
     </string-array>
     <string-array name="hdcp_checking_values">
-        <item>never</item>
-        <item>drm-only</item>
-        <item>always</item>
+        <item>לעולם לר</item>
+        <item>DRM בלבד</item>
+        <item>תמיד</item>
     </string-array>
     <string-array name="hdcp_checking_summaries">
-        <item>Never use HDCP checking</item>
-        <item>Use HDCP checking for DRM content only</item>
-        <item>Always use HDCP checking</item>
+        <item>לעולם אל תעשה שימוש ב HDCP</item>
+        <item>עשה שימוש ב HDCP לחיפוש תוכן DRM בלבד</item>
+        <item>תמיד השתמש ב HDCP</item>
     </string-array>
     <string-array name="window_animation_scale_entries">
-        <item>Animation off</item>
-        <item>Animation scale .5x</item>
-        <item>Animation scale 1x</item>
-        <item>Animation scale 1.5x</item>
-        <item>Animation scale 2x</item>
-        <item>Animation scale 5x</item>
-        <item>Animation scale 10x</item>
+        <item>אנמיציה כבוייה</item>
+        <item>מדרג אנימציות .5x</item>
+        <item>מדרג אנימציות 1x</item>
+        <item>מדרג אנימציות 1.5x</item>
+        <item>מדרג אנימציות 2x</item>
+        <item>מדרג אנימציות 5x</item>
+        <item>צדרג אנימציות 10x</item>
     </string-array>
     <string-array name="window_animation_scale_values">
         <item>0</item>
@@ -701,13 +702,13 @@
         <item>10</item>
     </string-array>
     <string-array name="transition_animation_scale_entries">
-        <item>Animation off</item>
-        <item>Animation scale .5x</item>
-        <item>Animation scale 1x</item>
-        <item>Animation scale 1.5x</item>
-        <item>Animation scale 2x</item>
-        <item>Animation scale 5x</item>
-        <item>Animation scale 10x</item>
+        <item>אנמיציה כבוייה</item>
+        <item>מדרג אנימציות .5x</item>
+        <item>מדרג אנימציות 1x</item>
+        <item>מדרג אנימציות 1.5x</item>
+        <item>מדרג אנימציות 2x</item>
+        <item>מדרג אנימציות 5x</item>
+        <item>צדרג אנימציות 10x</item>
     </string-array>
     <string-array name="transition_animation_scale_values">
         <item>0</item>
@@ -719,13 +720,13 @@
         <item>10</item>
     </string-array>
     <string-array name="animator_duration_scale_entries">
-        <item>Animation off</item>
-        <item>Animation scale .5x</item>
-        <item>Animation scale 1x</item>
-        <item>Animation scale 1.5x</item>
-        <item>Animation scale 2x</item>
-        <item>Animation scale 5x</item>
-        <item>Animation scale 10x</item>
+        <item>אנמיציה כבוייה</item>
+        <item>מדרג אנימציות .5x</item>
+        <item>מדרג אנימציות 1x</item>
+        <item>מדרג אנימציות 1.5x</item>
+        <item>מדרג אנימציות 2x</item>
+        <item>מדרג אנימציות 5x</item>
+        <item>צדרג אנימציות 10x</item>
     </string-array>
     <string-array name="animator_duration_scale_values">
         <item>0</item>
@@ -757,7 +758,7 @@
         <item>1280x720/213;1920x1080/320</item>
     </string-array>
     <string-array name="enable_opengl_traces_entries">
-        <item>None</item>
+        <item>ללא</item>
         <item>Logcat</item>
         <item>Systrace (Graphics)</item>
         <item>Call stack on glGetError</item>
@@ -766,32 +767,32 @@
         <item>0</item>
         <item>1</item>
         <item>systrace</item>
-        <item>error</item>
+        <item>שגיאה</item>
     </string-array>
     <string-array name="show_non_rect_clip_entries">
-        <item>Off</item>
-        <item>Draw non-rectangular clip region in blue</item>
-        <item>Highlight tested drawing commands in green</item>
+        <item>כבוי</item>
+        <item>צייר צורב לא מלבנית בצבע כחול</item>
+        <item>הדגש אזורים מסומיהם בירוק</item>
     </string-array>
     <string-array name="show_non_rect_clip_values">
-        <item>hide</item>
-        <item>region</item>
-        <item>highlight</item>
+        <item>חבוי</item>
+        <item>אזור</item>
+        <item>מודגש</item>
     </string-array>
     <string-array name="track_frame_time_entries">
-        <item>Off</item>
-        <item>On screen as bars</item>
-        <item>In adb shell dumpsys gfxinfo</item>
+        <item>כבוי</item>
+        <item>על המסך כסרגל</item>
+        <item>רק בממשק ADB</item>
     </string-array>
     <string-array name="track_frame_time_values">
-        <item>false</item>
+        <item>שווא</item>
         <item>visual_bars</item>
         <item>true</item>
     </string-array>
     <string-array name="debug_hw_overdraw_entries">
-        <item>Off</item>
-        <item>Show overdraw areas</item>
-        <item>Show areas for Deuteranomaly</item>
+        <item>כבוי</item>
+        <item>הראה איזור ייתק</item>
+        <item>הראה אזורי חסר</item>
     </string-array>
     <string-array name="debug_hw_overdraw_values">
         <item>false</item>
@@ -831,19 +832,19 @@
         <item>IPSec VPN with certificates and hybrid authentication</item>
     </string-array>
     <string-array name="vpn_states">
-        <item>Disconnected</item>
-        <item>Initializing…</item>
-        <item>Connecting…</item>
-        <item>Connected</item>
+        <item>מנותק</item>
+        <item>מאתחל</item>
+        <item>מתחבר</item>
+        <item>מחובר</item>
         <item>Timeout</item>
-        <item>Unsuccessful</item>
+        <item>נכשל</item>
     </string-array>
     <string-array name="user_content_ratings_entries">
-        <item>Ascended being</item>
-        <item>Human</item>
-        <item>Neanderthal</item>
-        <item>Chimp</item>
-        <item>Monkey</item>
+        <item>מתחיל</item>
+        <item>אדם</item>
+        <item>אדם קדמון</item>
+        <item>שימפנזה</item>
+        <item>קוף</item>
     </string-array>
     <string-array name="user_content_ratings_values">
         <item>5</item>
@@ -853,9 +854,9 @@
         <item>1</item>
     </string-array>
     <string-array name="security_settings_premium_sms_values">
-        <item>Ask</item>
-        <item>Never allow</item>
-        <item>Always allow</item>
+        <item>שאל</item>
+        <item>לעולם לא</item>
+        <item>תמיד</item>
     </string-array>
     <string-array name="ram_states">
         <item>normal</item>
