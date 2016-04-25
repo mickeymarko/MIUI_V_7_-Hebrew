@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="timezone_filters">
         <item>אמריקה</item>
@@ -276,7 +276,7 @@
     </string-array>
     <string-array name="wifi_ip_settings">
         <item>DHCP</item>
-        <item>Static</item>
+        <item>קבוע</item>
     </string-array>
     <string-array name="wifi_proxy_settings">
         <item>ללא</item>
@@ -859,10 +859,10 @@
         <item>תמיד</item>
     </string-array>
     <string-array name="ram_states">
-        <item>normal</item>
-        <item>moderate</item>
-        <item>low</item>
-        <item>critical</item>
+        <item>נורמלי</item>
+        <item>בינוני</item>
+        <item>נמוך</item>
+        <item>קריטי</item>
     </string-array>
     <string-array name="daltonizer_type_entries">
         <item>@string/daltonizer_mode_deuteranomaly</item>
@@ -889,9 +889,9 @@
         <item>3</item>
     </string-array>
     <string-array name="entries_zen_mode">
-        <item>Off</item>
-        <item>Limited interruptions</item>
-        <item>Zero interruptions</item>
+        <item>כבוי</item>
+        <item>הפרעות נמוכות</item>
+        <item>ללא הפרעות</item>
     </string-array>
     <string-array name="entryvalues_zen_mode">
         <item>0</item>
@@ -904,23 +904,23 @@
         <item>15</item>
     </integer-array>
     <string-array name="proc_stats_memory_states">
-        <item>Normal</item>
-        <item>Moderate</item>
-        <item>Low</item>
-        <item>Critical</item>
+        <item>נורמלי</item>
+        <item>בינוני</item>
+        <item>נמוך</item>
+        <item>קריטי</item>
     </string-array>
     <string-array name="proc_stats_process_states">
-        <item>Persistent</item>
-        <item>Top activity</item>
-        <item>Important (foreground)</item>
-        <item>Important (background)</item>
-        <item>Backup</item>
-        <item>Heavy weight</item>
-        <item>Service (running)</item>
-        <item>Service (restarting)</item>
-        <item>Receiver</item>
-        <item>Home</item>
-        <item>Last activity</item>
+        <item>מתמשך</item>
+        <item>עדיפות גבוהה</item>
+        <item>חשוב </item>
+        <item>חשוב (רקע)</item>
+        <item>גיבוי</item>
+        <item>משקל גבוה</item>
+        <item>שירותים (רצים)</item>
+        <item>שירותים (מאתחלים)</item>
+        <item>מקבל</item>
+        <item>בית</item>
+        <item>פעילות אחרונה</item>
         <item>Cached (activity)</item>
         <item>Cached (activity client)</item>
         <item>Cached (empty)</item>
@@ -942,9 +942,9 @@
         <item>@string/input_method_selector_always_hide_value</item>
     </string-array>
     <string-array name="haptic_feedback_level_entries">
-        <item>Strong</item>
-        <item>Medium</item>
-        <item>Light</item>
+        <item>חזק</item>
+        <item>בינוני</item>
+        <item>קל</item>
     </string-array>
     <string-array name="haptic_feedback_level_values">
         <item>2</item>
@@ -952,9 +952,9 @@
         <item>0</item>
     </string-array>
     <string-array name="media_feedback_level_entries">
-        <item>Strong</item>
-        <item>Medium</item>
-        <item>Light</item>
+        <item>חזק</item>
+        <item>בינוני</item>
+        <item>קל</item>
     </string-array>
     <string-array name="media_feedback_level_values">
         <item>2</item>
@@ -962,9 +962,9 @@
         <item>0</item>
     </string-array>
     <string-array name="battery_indicator_style_entries">
-        <item>Graphical</item>
-        <item>Percentage</item>
-        <item>Top bar</item>
+        <item>גרפי</item>
+        <item>אחוזים</item>
+        <item>בר עליון</item>
     </string-array>
     <string-array name="battery_indicator_style_values">
         <item>0</item>
@@ -972,9 +972,9 @@
         <item>2</item>
     </string-array>
     <string-array name="usb_connection_mode_entries">
-        <item>Ask upon connection</item>
-        <item>Charge only</item>
-        <item>Mount SD card</item>
+        <item>שאל לפני חיבור</item>
+        <item>טעינה בלבד</item>
+        <item>חבר כאחסון</item>
     </string-array>
     <string-array name="usb_connection_mode_values">
         <item>0</item>
@@ -982,14 +982,14 @@
         <item>2</item>
     </string-array>
     <string-array name="led_freq_entries">
-        <item>2 seconds</item>
-        <item>3 seconds</item>
-        <item>4 seconds</item>
-        <item>5 seconds</item>
-        <item>6 seconds</item>
-        <item>7 seconds</item>
-        <item>8 seconds</item>
-        <item>9 seconds</item>
+        <item>2 שניות</item>
+        <item>3 שניות</item>
+        <item>4 שניות</item>
+        <item>5 שניות</item>
+        <item>6 שניות</item>
+        <item>7 שניות</item>
+        <item>8 שניות</item>
+        <item>9 שניות</item>
     </string-array>
     <string-array name="led_freq_values">
         <item>2000</item>
@@ -1002,38 +1002,38 @@
         <item>9000</item>
     </string-array>
     <string-array name="led_color_values">
-        <item>blue</item>
-        <item>red</item>
-        <item>yellow</item>
-        <item>green</item>
-        <item>cyan</item>
-        <item>white</item>
+        <item>כחול</item>
+        <item>אדום</item>
+        <item>צהוב</item>
+        <item>ירוק</item>
+        <item>טורקיז</item>
+        <item>לבן</item>
         <item>\#FFAA00AA</item>
     </string-array>
     <string-array name="mi1_led_color_values">
-        <item>blue</item>
-        <item>red</item>
-        <item>green</item>
+        <item>כחול</item>
+        <item>אדום</item>
+        <item>ירוק</item>
         <item>\#FFFF0033</item>
         <item>\#FF5500FF</item>
         <item>\#FFAA00AA</item>
     </string-array>
     <string-array name="mi1_led_color_entries">
-        <item>Blue</item>
-        <item>Red</item>
-        <item>Green</item>
-        <item>Pink</item>
-        <item>Violet</item>
-        <item>Purple</item>
+        <item>כחול</item>
+        <item>אדום</item>
+        <item>ירוק</item>
+        <item>ורוד</item>
+        <item>לילך</item>
+        <item>סגול</item>
     </string-array>
     <string-array name="led_color_entries">
-        <item>Blue</item>
-        <item>Red</item>
-        <item>Yellow</item>
-        <item>Green</item>
-        <item>Cyan</item>
-        <item>White</item>
-        <item>Violet</item>
+        <item>כחול</item>
+        <item>אדום</item>
+        <item>צהוב</item>
+        <item>ירוק</item>
+        <item>טורקיז</item>
+        <item>לבן</item>
+        <item>לילך</item>
     </string-array>
     <string-array name="always_enabled_app_list">
         <item>com.android.providers.applications</item>
@@ -1078,20 +1078,20 @@
         <item>SIM</item>
     </string-array>
     <string-array name="screen_key_press_action">
-        <item>Show recent apps tray</item>
-        <item>Show menu</item>
+        <item>הצג את האפליקציות האחרונות</item>
+        <item>הצג תפריט</item>
     </string-array>
     <string-array name="screen_key_press_action_value">
         <item>recent_panel</item>
         <item>show_menu</item>
     </string-array>
     <string-array name="screen_key_long_press_action">
-        <item>None</item>
-        <item>Show recent apps tray</item>
-        <item>Launch Assistant</item>
-        <item>Launch Google now</item>
-        <item>Close current app</item>
-        <item>Show menu</item>
+        <item>ללר</item>
+        <item>הצג ישומיים אחרונים</item>
+        <item>הפעל סייען</item>
+        <item>הפעל גוגל</item>
+        <item>סגור יישום נוכחי</item>
+        <item>הצג תפריט</item>
     </string-array>
     <string-array name="screen_key_long_press_action_value">
         <item>none</item>
@@ -1102,10 +1102,10 @@
         <item>show_menu</item>
     </string-array>
     <string-array name="screen_key_long_press_timeout">
-        <item>0.5 seconds</item>
-        <item>1 second</item>
-        <item>1.5 seconds</item>
-        <item>2 seconds</item>
+        <item>0.5 שניות</item>
+        <item>1 שניות</item>
+        <item>1.5 שניות</item>
+        <item>2 שניות</item>
     </string-array>
     <string-array name="screen_key_long_press_timeout_value">
         <item>500</item>
@@ -1114,12 +1114,12 @@
         <item>2000</item>
     </string-array>
     <string-array name="button_light_timeout_entries">
-        <item>1 second</item>
-        <item>2 seconds</item>
-        <item>5 seconds</item>
-        <item>10 seconds</item>
-        <item>20 seconds</item>
-        <item>Always on</item>
+        <item>1 שניות</item>
+        <item>2 שניות</item>
+        <item>5 שניות</item>
+        <item>10 שניות</item>
+        <item>20 שניות</item>
+        <item>מופעל תמיד</item>
     </string-array>
     <string-array name="button_light_timeout_value">
         <item>1000</item>
@@ -1152,8 +1152,8 @@
         <item>Device connected</item>
     </string-array>
     <string-array name="power_mode_entries">
-        <item>Performance</item>
-        <item>Balanced</item>
+        <item>ביצועים</item>
+        <item>מאוזן</item>
     </string-array>
     <string-array name="msd_pc_system">
         <item>Windows XP and older</item>
@@ -1201,23 +1201,23 @@
 Note: Only for Ubuntu 8.04!"</item>
     </string-array>
     <string-array name="screen_color_title">
-        <item>Warm</item>
-        <item>Standard</item>
-        <item>Cool</item>
+        <item>חמים</item>
+        <item>נורמלי</item>
+        <item>קריר</item>
     </string-array>
     <string-array name="screen_saturation_title">
-        <item>Brilliant</item>
-        <item>Standard</item>
+        <item>בוהק</item>
+        <item>נורמלי</item>
     </string-array>
     <string-array name="screen_optimize_title">
-        <item>Automatic contrast</item>
-        <item>Increased contrast</item>
-        <item>Standard</item>
+        <item>ניגודיות אוטו'</item>
+        <item>ניגודיות מוגברת</item>
+        <item>נורמלי</item>
     </string-array>
     <string-array name="screen_optimize_summary">
-        <item>Optimize contrast for available light</item>
-        <item>"Increase display's contrast"</item>
-        <item>Contrast will remain constant</item>
+        <item>הניגודיות תתואת לכמות התאורה בסביבה</item>
+        <item>"ניגודיות התצוגה תוגבר"</item>
+        <item>הניגודיות תישאר קבועה</item>
     </string-array>
     <string-array name="perms_hips_values">
         <item>2</item>
@@ -1225,17 +1225,17 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>0</item>
     </string-array>
     <string-array name="perm_hips_action">
-        <item>Allow</item>
-        <item>Ask</item>
-        <item>Deny</item>
+        <item>אפשר</item>
+        <item>שאל</item>
+        <item>דחה</item>
     </string-array>
     <string-array name="startup_hips_values">
         <item>2</item>
         <item>0</item>
     </string-array>
     <string-array name="startup_hips_action">
-        <item>Allow</item>
-        <item>Deny</item>
+        <item>אפשר</item>
+        <item>דחה</item>
     </string-array>
     <string-array name="entries_color_calibration">
         <item>sRGB</item>
@@ -1246,8 +1246,8 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>1</item>
     </string-array>
     <string-array name="phone_call_noise_suppression_title">
-        <item>Single mic noise suppression</item>
-        <item>Dual mic noise suppression</item>
+        <item>סינון רעשים על ידי שימוש במיק' אחד</item>
+        <item>סינון רעשים על ידי שימוש בשני מיק'</item>
     </string-array>
     <string-array name="phone_call_noise_suppression_values">
         <item>1</item>
@@ -1260,10 +1260,10 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>mixed</item>
     </string-array>
     <string-array name="change_security_lock_picker">
-        <item>Face unlock</item>
-        <item>Pattern</item>
-        <item>PIN</item>
-        <item>Password</item>
+        <item>זיהוי פנים</item>
+        <item>תבנית</item>
+        <item>קוד</item>
+        <item>סיסמא</item>
     </string-array>
     <string-array name="dndm_vip_list_group_array">
         <item>@string/dndm_vip_list_custom</item>
